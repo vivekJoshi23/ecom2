@@ -1,0 +1,4 @@
+composer require accentinteractive/laravel-logcleaner (This Command is used to install llibrary which is used for clear the laravel.log file)
+
+php artisan vendor:publish --provider="Accentinteractive\LaravelLogcleaner\LaravelLogcleanerServiceProvider" --tag="config" ("This command is used to publish above dependency")
+
